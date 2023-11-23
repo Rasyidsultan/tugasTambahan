@@ -1,0 +1,25 @@
+body {
+    background-color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3 {
+    margin-left: 100px;
+}
+button {
+    background-color: crimson;
+    color: aliceblue;
+    margin: 3px;
+    height: 180px;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f20202;
+    transition: .3s all ease-in-out;
+}
